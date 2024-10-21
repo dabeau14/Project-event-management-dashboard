@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "title": "Conference 2024",
+    "date": "2024-10-20",
+    "location": "Johannesburg",
+    "status": "Scheduled"
+  },
+  {
+    "id": 2,
+    "title": "Music Festival",
+    "date": "2024-11-01",
+    "location": "Cape Town",
+    "status": "Scheduled"
+  },
+  {
+    "id": 3,
+    "title": "Macufe",
+    "date": "2024-11-01",
+    "location": "Bloemfontein",
+    "status": "Scheduled"
+  }
+]

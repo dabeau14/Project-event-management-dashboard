@@ -1,0 +1,21 @@
+<h2>Event Details</h2>
+<table class="table table-bordered">
+  <tr>
+    <th>Title</th>
+    <td>{{ event?.title }}</td>
+  </tr>
+  <tr>
+    <th>Date</th>
+    <td>{{ event?.date | date: 'shortDate' }}</td>
+  </tr>
+  <tr>
+    <th>Location</th>
+    <td>{{ event?.location }}</td>
+  </tr>
+  <tr>
+    <th>Status</th>
+    <td>{{ event?.status }}</td>
+  </tr>
+</table>
+<a [routerLink]="['/edit-event', event?.id]" class="btn btn-primary">Edit</a>
+<a [routerLink]="['/events']" class="btn btn-secondary">Back to Events</a>

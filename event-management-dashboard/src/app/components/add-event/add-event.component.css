@@ -1,0 +1,10 @@
+/* Add styling for the form */
+form {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  button {
+    margin-top: 15px;
+  }
+  

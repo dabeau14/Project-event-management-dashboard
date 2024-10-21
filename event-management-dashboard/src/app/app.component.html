@@ -1,0 +1,30 @@
+<div class="container">
+  <header class="text-center my-4">
+    <h1 class="display-4">Event Management Dashboard</h1>
+    <p class="lead">Manage your events effortlessly</p>
+  </header>
+
+  <div class="row">
+    <div class="col-md-8 offset-md-2">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
+  <footer class="text-center mt-4">
+    <p>&copy; Designed by Edward Beukes. All rights reserved.</p>
+  </footer>
+</div>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Event Dashboard</a>
+  <div class="collapse navbar-collapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/events']">Events</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" [routerLink]="['/add-event']">Add Event</a>
+      </li>
+    </ul>
+  </div>
+</nav>
